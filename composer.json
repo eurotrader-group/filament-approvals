@@ -34,6 +34,12 @@
         "pestphp/pest-plugin-arch": "^2.0",
         "pestphp/pest-plugin-laravel": "^2.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://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@github.com/ssjowowo/laravel-process-approval"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "EightyNine\\Approvals\\": "src/",
