@@ -12,7 +12,7 @@ trait Approvable
 
     public function createdBy()
     {
-        return User::find($this->approvalStatus->creator_id);
+        return app(config('process_approval.users_model'))::find($this->approvalStatus->creator_id);
     }
 
     /**
